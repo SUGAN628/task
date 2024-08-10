@@ -1,20 +1,39 @@
 <!DOCTYPE html>
-<html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>table</title>
+  <style>
+    table,td,th{
+    border:2px solid blue;
+    border:collapse:collapse;
+    }
+  </style>
 </head>
 <body>
-
-<h2>Show Different Images Depending on Browser Width</h2>
-<p>Resize the browser width and the image will change at 600px and 1500px.</p>
-
-<picture>
-  <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
-  <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
-  <source srcset="flowers.jpg">
-  <img src="img_flowers.jpg" alt="Flowers" style="width:auto;">
-</picture>
-
-</body>
-</html>
-
+  <table border=2>
+     <tr>
+         <th>studentname</th>
+         <th>student age </th>
+         <th>mark</th>
+     </tr>
+     <tr>
+         <td>ragu</td>
+         <td>13</td>
+         <td>600</td>
+    </tr>
+    <tr>
+         <td>murali</td>
+         <td>13</td>
+         <td>540</td>
+    </tr>
+    <tr>
+         <td>anbu</td>
+         <td>13</td>
+         <td>520</td>
+    </tr>
+      <tr>
+         <td>kishore</td>
+         <td>13</td>
+         <td>510</td>
+    </tr>
+    </body>
+    </html>
